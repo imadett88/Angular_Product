@@ -1,0 +1,40 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Printer",
+      "price": 4400,
+      "checked": false
+    },
+    {
+      "id": 2,
+      "name": "Printer",
+      "price": 4400,
+      "checked": false
+    },
+    {
+      "id": 3,
+      "name": "Printer",
+      "price": 4400,
+      "checked": false
+    },
+    {
+      "name": "HP-PROBOOK",
+      "price": "7700",
+      "checked": false,
+      "id": 4
+    },
+    {
+      "name": "DELL XPS",
+      "price": "8900",
+      "checked": true,
+      "id": 5
+    },
+    {
+      "name": "HP-ELITEBOOK",
+      "price": "7865",
+      "checked": false,
+      "id": 6
+    }
+  ]
+}
