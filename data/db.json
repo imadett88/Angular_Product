@@ -2,9 +2,9 @@
   "products": [
     {
       "id": 1,
-      "name": "Printer",
-      "price": 4400,
-      "checked": false
+      "name": "Printerihihih",
+      "price": "44007",
+      "checked": true
     },
     {
       "id": 2,
@@ -35,6 +35,60 @@
       "price": "7865",
       "checked": false,
       "id": 6
+    },
+    {
+      "name": "GBCC",
+      "price": "22",
+      "checked": false,
+      "id": 7
+    },
+    {
+      "name": "GBCCio",
+      "price": "22",
+      "checked": false,
+      "id": 8
+    },
+    {
+      "name": "GBCCio",
+      "price": "22",
+      "checked": false,
+      "id": 9
+    },
+    {
+      "name": "GBCCiob",
+      "price": "22",
+      "checked": false,
+      "id": 10
+    },
+    {
+      "name": "GBCCioboooo",
+      "price": "22",
+      "checked": false,
+      "id": 11
+    },
+    {
+      "name": "GBCCioboooo",
+      "price": "229",
+      "checked": false,
+      "id": 12
+    },
+    {
+      "name": "GBCCioboooo",
+      "price": "229000",
+      "checked": false,
+      "id": 13
+    },
+    {
+      "name": "GBCCioboooo",
+      "price": "229000",
+      "checked": true,
+      "id": 14
+    },
+    {
+      "name": "GBCCioboooo",
+      "price": "229000",
+      "checked": true,
+      "id": 16
     }
   ]
 }

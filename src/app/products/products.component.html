@@ -3,7 +3,8 @@
     <div class="card-body">
       <div class="card-body">
         <input class="p-1" type="text" [(ngModel)]="keyword">
-        <button  (click)="searchProducts()" class="btn btn-outline-success ms-1">
+        <button  (click)="searchProducts()"
+                 class="btn btn-outline-success ms-1">
           <i class="bi bi-search"></i>
         </button>
       </div>
@@ -21,6 +22,7 @@
             <button (click)="handleCheckProduct(product)"
                     class="btn btn-outline-success">
               <i [class]="product.checked?'bi bi-check':'bi bi-circle'"></i>
+                   <!-- [class] condition (juste if)  -->
             </button>
           </td>
           <td>
@@ -28,9 +30,24 @@
               <i class="bi bi-trash"></i>
             </button>
           </td>
+          <td>
+            <button (click)="handleEdit(product)" class="btn btn-outline-info">
+              <i class="bi bi-pencil"></i>
+            </button>
+          </td>
         </tr>
         </tbody>
       </table>
+      <ul class="nav nav-pills">
+        <li *ngFor="let page of [].constructor(this.totalPages); let i=index">
+          <button (click)="handleGoToPage(i+1)"
+                  [ngClass]="currentPage==(i+1)?'btn-success':'btn-outline-success'"
+                    class="btn m-1">
+                 <!-- [ngClass] pour une condition (if & else)-->
+            {{(i+1)}}
+          </button>
+        </li>
+      </ul>
     </div>
   </div>
 </div>
