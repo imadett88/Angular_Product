@@ -4,8 +4,12 @@ import {HomeComponent} from "./home/home.component";
 import {ProductsComponent} from "./products/products.component";
 import {NewProductComponent} from "./new-product/new-product.component";
 import {EditProductComponent} from "./edit-product/edit-product.component";
+import {LoginComponent} from "./login/login.component";
 
 const routes: Routes = [
+  {
+    path: "login", component: LoginComponent
+  },
   {
     path: "home", component: HomeComponent
   },
@@ -17,6 +21,9 @@ const routes: Routes = [
   },
   {
     path: "editProduct/:id", component: EditProductComponent
+  },
+  {
+    path: "", redirectTo : "/login", pathMatch: 'full'
   }
 ];
 
