@@ -1,27 +1,16 @@
-# CntrlApp
+CONTROLE(Activité N°5) de JEE et Systèmes Distribués
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.4.
+Products :
+![s1](https://github.com/imadett88/Angular_Product/assets/83021588/be9b2df0-6536-4e77-ba7d-83cf10b4d3bc)
 
-## Development server
+Add Product :
+![s2](https://github.com/imadett88/Angular_Product/assets/83021588/7cd459ba-f419-4f7d-b879-59a644ba5ae7)
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+Pagination :
+![s3](https://github.com/imadett88/Angular_Product/assets/83021588/fb2ab75b-13ca-4ce3-a5ea-3887c6805223)
 
-## Code scaffolding
+Home :
+![s4](https://github.com/imadett88/Angular_Product/assets/83021588/b1249a97-d9cb-4368-96e6-ab837fd27e26)
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
-## Build
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
